@@ -558,6 +558,10 @@ def validate(val_loader, net, criterion, optim, epoch,
     net.eval()
     val_loss = AverageMeter()
     iou_acc = 0
+    #me - 1
+    print('Staring...')
+
+
 
     for val_idx, data in enumerate(val_loader):
         input_images, labels, img_names, _ = data 
@@ -565,6 +569,8 @@ def validate(val_loader, net, criterion, optim, epoch,
             submit_fn = '{}.png'.format(img_names[0])
             if val_idx % 20 == 0:
                 logx.msg(f'validating[Iter: {val_idx + 1} / {len(val_loader)}]')
+                #mee - 1
+                print(f'validating[Iter: {val_idx + 1} / {len(val_loader)}]')
             if os.path.exists(os.path.join(dumper.save_dir, submit_fn)):
                 continue
 
@@ -587,6 +593,8 @@ def validate(val_loader, net, criterion, optim, epoch,
 
         if val_idx % 20 == 0:
             logx.msg(f'validating[Iter: {val_idx + 1} / {len(val_loader)}]')
+            #mee -1
+            print(f'validating[Iter: {val_idx + 1} / {len(val_loader)}]')
 
     was_best = False
     if calc_metrics:
