@@ -2,7 +2,7 @@
 # Code adapted from:
 # https://github.com/facebookresearch/Detectron/blob/master/detectron/core/config.py
 
-Source License
+Source License 
 # Copyright (c) 2017-present, Facebook, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
