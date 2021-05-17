@@ -49,7 +49,7 @@ cfg = __C
 __C.GLOBAL_RANK = 0
 __C.EPOCH = 0
 # Absolute path to a location to keep some large files, not in this dir.
-__C.ASSETS_PATH = '/home/dcg-adlr-atao-data.cosmos277/assets'
+__C.ASSETS_PATH = '/scratch/vc2118/semantic-segmentation/smalldata'
 
 # Use class weighted loss per batch to increase loss for low pixel count classes per batch
 __C.BATCH_WEIGHTING = False
@@ -76,15 +76,15 @@ __C.TRAIN.FP16 = False
 __C.DATASET = AttrDict()
 #Cityscapes Dir Location
 __C.DATASET.CITYSCAPES_DIR = \
-  os.path.join(__C.ASSETS_PATH, 'data/Cityscapes')
+  os.path.join(__C.ASSETS_PATH, 'Cityscapes')
 __C.DATASET.CITYSCAPES_CUSTOMCOARSE = \
-  os.path.join(__C.ASSETS_PATH, 'data/Cityscapes/autolabelled')
+  os.path.join(__C.ASSETS_PATH, 'Cityscapes/autolabelled')
 __C.DATASET.CENTROID_ROOT = \
   os.path.join(__C.ASSETS_PATH, 'uniform_centroids')
 #SDC Augmented Cityscapes Dir Location
 __C.DATASET.CITYSCAPES_AUG_DIR = ''
 #Mapillary Dataset Dir Location
-__C.DATASET.MAPILLARY_DIR = os.path.join(__C.ASSETS_PATH, 'data/Mapillary/data')
+__C.DATASET.MAPILLARY_DIR = os.path.join(__C.ASSETS_PATH, 'Mapillary')
 #Kitti Dataset Dir Location
 __C.DATASET.KITTI_DIR = ''
 #SDC Augmented Kitti Dataset Dir Location
