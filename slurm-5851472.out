@@ -1,0 +1,240 @@
+NoneNone
+None
+None
+
+Global Rank: 1 Local Rank: 1Global Rank: 3 Local Rank: 3
+Global Rank: 2 Local Rank: 2
+
+Global Rank: 0 Local Rank: 0
+Torch version: 1.8, 1.8.0+cu111
+n scales [0.25, 0.5, 1.0, 2.0]
+dataset = mapillary
+ignore_label = 65
+num_classes = 65
+all imgs 2000
+Using Cross Entropy Loss
+Using Cross Entropy Loss
+Loading weights from: checkpoint=/scratch/vc2118/semantic-segmentation/smalldata/seg_weights/mapillary_ocrnet.HRNet_Mscale_fast-rattlesnake.pth
+=> init weights from normal distribution
+=> loading pretrained model /scratch/vc2118/semantic-segmentation/smalldata/seg_weights/hrnetv2_w48_imagenet_pretrained.pth
+Trunk: hrnetv2
+Model params = 72.2M
+Selected optimization level O3:  Pure FP16 training.
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O3
+cast_model_type        : torch.float16
+patch_torch_functions  : False
+keep_batchnorm_fp32    : False
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O3
+cast_model_type        : torch.float16
+patch_torch_functions  : False
+keep_batchnorm_fp32    : False
+master_weights         : False
+loss_scale             : 1.0
+validating[Iter: 1 / 500]
+validating[Iter: 1 / 500]
+validating[Iter: 1 / 500]
+validating[Iter: 1 / 500]
+validating[Iter: 1 / 500]
+validating[Iter: 21 / 500]
+validating[Iter: 21 / 500]
+validating[Iter: 21 / 500]
+validating[Iter: 21 / 500]
+validating[Iter: 21 / 500]
+validating[Iter: 41 / 500]
+validating[Iter: 41 / 500]
+validating[Iter: 41 / 500]
+validating[Iter: 41 / 500]
+validating[Iter: 41 / 500]
+validating[Iter: 61 / 500]
+validating[Iter: 61 / 500]
+validating[Iter: 61 / 500]
+validating[Iter: 61 / 500]
+validating[Iter: 61 / 500]
+validating[Iter: 81 / 500]
+validating[Iter: 81 / 500]
+validating[Iter: 81 / 500]
+validating[Iter: 81 / 500]
+validating[Iter: 81 / 500]
+validating[Iter: 101 / 500]
+validating[Iter: 101 / 500]
+validating[Iter: 101 / 500]
+validating[Iter: 101 / 500]
+validating[Iter: 101 / 500]
+validating[Iter: 121 / 500]
+validating[Iter: 121 / 500]
+validating[Iter: 121 / 500]
+validating[Iter: 121 / 500]
+validating[Iter: 121 / 500]
+validating[Iter: 141 / 500]
+validating[Iter: 141 / 500]
+validating[Iter: 141 / 500]
+validating[Iter: 141 / 500]
+validating[Iter: 141 / 500]
+validating[Iter: 161 / 500]
+validating[Iter: 161 / 500]
+validating[Iter: 161 / 500]
+validating[Iter: 161 / 500]
+validating[Iter: 161 / 500]
+validating[Iter: 181 / 500]
+validating[Iter: 181 / 500]
+validating[Iter: 181 / 500]
+validating[Iter: 181 / 500]
+validating[Iter: 181 / 500]
+validating[Iter: 201 / 500]
+validating[Iter: 201 / 500]
+validating[Iter: 201 / 500]
+validating[Iter: 201 / 500]
+validating[Iter: 201 / 500]
+validating[Iter: 221 / 500]
+validating[Iter: 221 / 500]
+validating[Iter: 221 / 500]
+validating[Iter: 221 / 500]
+validating[Iter: 221 / 500]
+validating[Iter: 241 / 500]
+validating[Iter: 241 / 500]
+validating[Iter: 241 / 500]
+validating[Iter: 241 / 500]
+validating[Iter: 241 / 500]
+validating[Iter: 261 / 500]
+validating[Iter: 261 / 500]
+validating[Iter: 261 / 500]
+validating[Iter: 261 / 500]
+validating[Iter: 261 / 500]
+validating[Iter: 281 / 500]
+validating[Iter: 281 / 500]
+validating[Iter: 281 / 500]
+validating[Iter: 281 / 500]
+validating[Iter: 301 / 500]
+validating[Iter: 281 / 500]
+validating[Iter: 301 / 500]
+validating[Iter: 301 / 500]
+validating[Iter: 301 / 500]
+validating[Iter: 301 / 500]
+validating[Iter: 321 / 500]
+validating[Iter: 321 / 500]
+validating[Iter: 321 / 500]
+validating[Iter: 321 / 500]
+validating[Iter: 321 / 500]
+validating[Iter: 341 / 500]
+validating[Iter: 341 / 500]
+validating[Iter: 341 / 500]
+validating[Iter: 341 / 500]
+validating[Iter: 341 / 500]
+validating[Iter: 361 / 500]
+validating[Iter: 361 / 500]
+validating[Iter: 361 / 500]
+validating[Iter: 361 / 500]
+validating[Iter: 361 / 500]
+validating[Iter: 381 / 500]
+validating[Iter: 381 / 500]
+validating[Iter: 381 / 500]
+validating[Iter: 381 / 500]
+validating[Iter: 381 / 500]
+validating[Iter: 401 / 500]
+validating[Iter: 401 / 500]
+validating[Iter: 401 / 500]
+validating[Iter: 401 / 500]
+validating[Iter: 401 / 500]
+validating[Iter: 421 / 500]
+validating[Iter: 421 / 500]
+validating[Iter: 421 / 500]
+validating[Iter: 421 / 500]
+validating[Iter: 421 / 500]
+validating[Iter: 441 / 500]
+validating[Iter: 441 / 500]
+validating[Iter: 441 / 500]
+validating[Iter: 441 / 500]
+validating[Iter: 441 / 500]
+validating[Iter: 461 / 500]
+validating[Iter: 461 / 500]
+validating[Iter: 461 / 500]
+validating[Iter: 461 / 500]
+validating[Iter: 461 / 500]
+validating[Iter: 481 / 500]
+validating[Iter: 481 / 500]
+validating[Iter: 481 / 500]
+validating[Iter: 481 / 500]
+validating[Iter: 481 / 500]
+IoU:
+  Id  label                       iU_1.0     TP     FP    FN    Precision    Recall
+----  ------------------------  --------  -----  -----  ----  -----------  --------
+   0  Bird                         23.42   0.00   3.08  0.19         0.25      0.84
+   1  Ground_Animal                68.76   0.00   0.36  0.09         0.73      0.92
+   2  Curb                         66.90   0.68   0.25  0.24         0.80      0.80
+   3  Fence                        69.40   1.07   0.20  0.24         0.83      0.81
+   4  Guard_Rail                   71.20   0.20   0.24  0.16         0.81      0.86
+   5  Barrier                      64.43   0.31   0.32  0.23         0.76      0.81
+   6  Wall                         58.12   0.62   0.45  0.27         0.69      0.78
+   7  Bike_Lane                    44.04   0.22   0.72  0.55         0.58      0.65
+   8  Crosswalk_-_Plain            41.85   0.14   0.98  0.41         0.51      0.71
+   9  Curb_Cut                     26.47   0.03   1.82  0.95         0.35      0.51
+  10  Parking                      23.75   0.07   2.39  0.82         0.29      0.55
+  11  Pedestrian_Area              45.54   0.35   0.64  0.55         0.61      0.64
+  12  Rail_Track                   60.23   0.08   0.33  0.33         0.75      0.75
+  13  Road                         90.11  18.49   0.04  0.07         0.96      0.94
+  14  Service_Lane                 47.23   0.14   0.64  0.48         0.61      0.68
+  15  Sidewalk                     75.21   2.84   0.16  0.17         0.86      0.85
+  16  Bridge                       80.31   0.62   0.10  0.14         0.91      0.87
+  17  Building                     90.89  11.81   0.04  0.06         0.96      0.95
+  18  Tunnel                       85.13   0.06   0.12  0.05         0.89      0.95
+  19  Person                       84.26   0.30   0.07  0.11         0.93      0.90
+  20  Bicyclist                    71.84   0.03   0.21  0.18         0.83      0.85
+  21  Motorcyclist                 79.23   0.02   0.16  0.10         0.86      0.91
+  22  Other_Rider                   7.28   0.00  11.55  1.20         0.08      0.46
+  23  Lane_Marking_-_Crosswalk     74.25   0.67   0.19  0.16         0.84      0.86
+  24  Lane_Marking_-_General       67.57   1.04   0.31  0.17         0.76      0.86
+  25  Mountain                     51.03   0.13   0.70  0.26         0.59      0.80
+  26  Sand                         12.37   0.00   6.99  0.10         0.13      0.91
+  27  Sky                          98.45  29.52   0.01  0.01         0.99      0.99
+  28  Snow                         83.19   0.36   0.10  0.11         0.91      0.90
+  29  Terrain                      73.18   1.06   0.15  0.21         0.87      0.82
+  30  Vegetation                   91.60  14.50   0.04  0.05         0.96      0.95
+  31  Water                        84.95   0.07   0.12  0.06         0.89      0.95
+  32  Banner                       47.79   0.04   0.81  0.28         0.55      0.78
+  33  Bench                        65.05   0.01   0.36  0.17         0.73      0.85
+  34  Bike_Rack                    42.52   0.00   0.50  0.85         0.67      0.54
+  35  Billboard                    60.16   0.44   0.41  0.25         0.71      0.80
+  36  Catch_Basin                  44.30   0.02   0.91  0.35         0.52      0.74
+  37  CCTV_Camera                  33.59   0.00   1.38  0.59         0.42      0.63
+  38  Fire_Hydrant                 79.33   0.00   0.17  0.09         0.86      0.91
+  39  Junction_Box                 71.06   0.05   0.25  0.15         0.80      0.87
+  40  Mailbox                      27.55   0.00   1.80  0.83         0.36      0.55
+  41  Manhole                      60.68   0.04   0.49  0.16         0.67      0.86
+  42  Phone_Booth                  35.28   0.00   1.69  0.14         0.37      0.88
+  43  Pothole                       3.32   0.00  26.81  2.34         0.04      0.30
+  44  Street_Light                 64.89   0.04   0.41  0.13         0.71      0.88
+  45  Pole                         63.75   0.63   0.37  0.20         0.73      0.83
+  46  Traffic_Sign_Frame           71.08   0.09   0.21  0.20         0.83      0.83
+  47  Utility_Pole                 60.91   0.32   0.38  0.26         0.72      0.79
+  48  Traffic_Light                80.25   0.16   0.14  0.11         0.88      0.90
+  49  Traffic_Sign_(Back)          61.76   0.06   0.34  0.28         0.75      0.78
+  50  Traffic_Sign_(Front)         82.04   0.45   0.14  0.07         0.87      0.93
+  51  Trash_Can                    77.02   0.05   0.20  0.09         0.83      0.91
+  52  Bicycle                      77.11   0.05   0.14  0.15         0.88      0.87
+  53  Boat                         61.39   0.00   0.44  0.18         0.69      0.84
+  54  Bus                          88.15   0.22   0.06  0.07         0.94      0.93
+  55  Car                          93.63   3.30   0.03  0.04         0.97      0.96
+  56  Caravan                       0.95   0.00  95.64  8.52         0.01      0.11
+  57  Motorcycle                   76.60   0.05   0.17  0.14         0.86      0.88
+  58  On_Rails                     74.17   0.02   0.30  0.05         0.77      0.95
+  59  Other_Vehicle                47.55   0.02   0.77  0.33         0.56      0.75
+  60  Trailer                      15.97   0.00   4.64  0.62         0.18      0.62
+  61  Truck                        82.06   0.33   0.11  0.11         0.90      0.90
+  62  Wheeled_Slow                 45.86   0.00   0.99  0.19         0.50      0.84
+  63  Car_Mount                    73.06   0.07   0.21  0.16         0.83      0.86
+  64  Ego_Vehicle                  89.25   1.93   0.05  0.07         0.96      0.93
+Mean: 61.08
+-----------------------------------------------------------------------------------------------------------
+this : [epoch 0], [val loss 0.25349], [acc 0.93823], [acc_cls 0.69005], [mean_iu 0.61081], [fwavacc 0.88980]
+best : [epoch 0], [val loss 0.25349], [acc 0.93823], [acc_cls 0.69005], [mean_iu 0.61081], [fwavacc 0.88980]
+-----------------------------------------------------------------------------------------------------------
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
