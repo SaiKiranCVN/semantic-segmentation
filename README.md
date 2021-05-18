@@ -104,4 +104,4 @@ Once we run the python with yml files, we will create `submit_cmd.sh` and `train
 
 You should end up seeing images that look like the following:
 
-![alt text](imgs/composited_sf.png "example inference, composited")
+![alt text](/imgs/combine_images.jpg "example inference, composited")
