@@ -8,10 +8,12 @@ Please refer to the `sdcnet` branch if you are looking for the code correspondin
 
 `'.s'` files are `SBATCH` files used to allocate resources and run the commands in it. Since, the project is done in [NYU Greene](https://www.nyu.edu/research/navigating-research-technology/nyu-greene.html) we had to used [Singularity](https://sylabs.io/singularity/) to emulate virtual environment and run the script.   
 
-# Output Results
+### Output Results
 
 `slurm-5851472.out` is the output of model eval, which is 61.08, same of the results of the paper.
+
 `slurm-6791219.out` is the output of the model training using the whole dataset, which as expected gave CUDA out of memory error.
+
 `slurm-6817264.out` is the output of model training using 30% of dataset run for 44 epoch for 60hrs and produced an IOU of 46.04. This rose from 20 to 46 in 44 epochs. The paper originally trined the whole dataset for 175 epochs, so can conclude that this is definately achevable with eough computational power and time.
 
 ## Installation 
