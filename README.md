@@ -4,6 +4,10 @@ Pytorch implementation of our paper [Hierarchical Multi-Scale Attention for Sema
 
 Please refer to the `sdcnet` branch if you are looking for the code corresponding to [Improving Semantic Segmentation via Video Prediction and Label Relaxation](https://nv-adlr.github.io/publication/2018-Segmentation).
 
+##Slrum Files
+
+`'.s'` files are `SBATCH` files used to allocate resources and run the commands in it. Since, the project is done in [NYU Greene](https://www.nyu.edu/research/navigating-research-technology/nyu-greene.html) we had to used [Singularity](https://sylabs.io/singularity/) to emulate virtual environment and run the script.   
+
 ## Installation 
 
 * The code is tested with pytorch 1.3 and python 3.6
