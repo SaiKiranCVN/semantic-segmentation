@@ -6,7 +6,7 @@ Please refer to the `sdcnet` branch if you are looking for the code correspondin
 
 ## Slrum Files
 
-`'.s'` files are `SBATCH` files used to allocate resources and run the commands in it. Since, the project is done in [NYU Greene](https://www.nyu.edu/research/navigating-research-technology/nyu-greene.html). We had to used [Singularity](https://sylabs.io/singularity/) to emulate virtual environment and run the script.   
+`'.s'` files are `SBATCH` files used to allocate resources and run the commands in it. Since, the project is done in [NYU Greene](https://www.nyu.edu/research/navigating-research-technology/nyu-greene.html). We used [Singularity](https://sylabs.io/singularity/) to emulate virtual environment and run the script.   
 
 ### Output Results
 
