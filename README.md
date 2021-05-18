@@ -80,16 +80,6 @@ The reported IOU should be 86.92. This evaluates with scales of 0.5, 1.0. and 2.
 The reported IOU should be 61.05. Note that this must be run on a 32GB node and the use of 'O3' mode for amp is critical in order to avoid GPU out of memory. Results in logs/eval_mapillary/...
 
 
-### Run inference and dump images on a folder of images
-
-```bash
-> python -m runx.runx scripts/dump_folder.yml -i
-```
-
-You should end up seeing images that look like the following:
-
-![alt text](imgs/composited_sf.png "example inference, composited")
-
 ## Train a model
 
 Train cityscapes, using HRNet + OCR + multi-scale attention with fine data and mapillary-pretrained model
