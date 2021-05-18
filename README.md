@@ -16,6 +16,14 @@ Please refer to the `sdcnet` branch if you are looking for the code correspondin
 
 `slurm-6817264.out` is the output of model training using 30% of dataset run for 44 epoch for 60hrs and produced an IOU of 46.04. This rose from 20 to 46 in 44 epochs. The paper originally trained the whole dataset for 175 epochs, so can conclude that this is definately achievable with enough computational power and time.
 
+
+### Resourses
+
+For [eval](https://github.com/SaiKiranCVN/semantic-segmentation/blob/main/run-test.s) - 4 RTX 8000, 64GB RAM, ran for 2hrs.
+
+For [Training](https://github.com/SaiKiranCVN/semantic-segmentation/blob/main/run-train.s) - 2 RTX 8000, 64GB RAM for 60hrs (30% of dataset).
+
+
 ## Installation 
 
 * The code is tested with pytorch 1.3 and python 3.6
