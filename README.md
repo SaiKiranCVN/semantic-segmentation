@@ -90,3 +90,12 @@ Train cityscapes, using HRNet + OCR + multi-scale attention with fine data and m
 The first time this command is run, a centroid file has to be built for the dataset. It'll take about 10 minutes(took 1hr with 2 GPUs). The centroid file is used during training to know how to sample from the dataset in a class-uniform way.
 
 This training run should deliver a model that achieves 84.7 IOU(46 with 30% data and only 44 epochs).
+
+## Creating Jobs
+
+Once we run the python with yml files, we will create `submit_cmd.sh` and `train_cmd.sh` which then can run using `SBATCH` by submitting the jobs.
+
+```bash
+> sbatch submit_cmd.sh # eval
+> sbatch train_cmd.sh # Training
+```
