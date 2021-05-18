@@ -27,7 +27,6 @@ For [Training](https://github.com/SaiKiranCVN/semantic-segmentation/blob/main/ru
 ## Installation 
 
 * The code is tested with pytorch 1.3 and python 3.6
-* You can use ./Dockerfile to build an image.
 
 
 ## Download Weights
@@ -45,19 +44,7 @@ For [Training](https://github.com/SaiKiranCVN/semantic-segmentation/blob/main/ru
 
 ## Download/Prepare Data
 
-If using Cityscapes, download Cityscapes data, then update `config.py` to set the path:
-```python
-__C.DATASET.CITYSCAPES_DIR=<path_to_cityscapes>
-```
-
-* Download Autolabelled-Data from [google drive](https://drive.google.com/file/d/1DtPo-WP-hjaOwsbj6ZxTtOo_7R_4TKRG/view?usp=sharing)
-
-If using Cityscapes Autolabelled Images, download Cityscapes data, then update `config.py` to set the path:
-```python
-__C.DATASET.CITYSCAPES_CUSTOMCOARSE=<path_to_cityscapes>
-```
-
-If using Mapillary, download Mapillary data, then update `config.py` to set the path:
+Mapillary, download Mapillary data, then update `config.py` to set the path:
 ```python
 __C.DATASET.MAPILLARY_DIR=<path_to_mapillary>
 ```
@@ -92,13 +79,6 @@ The reported IOU should be 86.92. This evaluates with scales of 0.5, 1.0. and 2.
 
 The reported IOU should be 61.05. Note that this must be run on a 32GB node and the use of 'O3' mode for amp is critical in order to avoid GPU out of memory. Results in logs/eval_mapillary/...
 
-### Dump images for Cityscapes
-
-```bash
-> python -m runx.runx scripts/dump_cityscapes.yml -i
-```
-
-This will dump network output and composited images from running evaluation with the Cityscapes validation set. 
 
 ### Run inference and dump images on a folder of images
 
